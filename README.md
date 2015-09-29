@@ -1,6 +1,10 @@
 # Audio Downloader
 
 This is a python Script which uses google api to search videos for the keyword and download the audio of the respective video using pafy library.
+This is usefule for you if:
+- You want to download a song by searching the name
+- You want your spotify playlist or any other saved playlist on your spotify account
+- You want to be awesome and fork this code to add functions compatible with other music playlists like from saavan, etx. 
 
 Instructions for setup
 ------------
@@ -21,8 +25,10 @@ Instructions for setup
   - Please ensure that you have enabled the YouTube Data API for your project.
 
 
-- Run the script 
-
+- Run the script according to your requirement 
+-1-To Download all songs from spotify, run the given command and follow the instructions in the script. 
+        python spotify++.py 
+-2-To Download the song by name run songsDownloader.py by steps given below.
         python songsDownloader.py
         
 
