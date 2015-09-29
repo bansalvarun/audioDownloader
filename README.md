@@ -26,20 +26,19 @@ Instructions for setup
 
 
 - Run the script according to your requirement 
--1-To Download all songs from spotify, run the given command and follow the instructions in the script. 
-        python spotify++.py 
--2-To Download the song by name run songsDownloader.py by steps given below.
-        python songsDownloader.py
-        
-
-    * On running, script prompts the user to enter keyword to search 
-    * It will give user the search result
-    * Succesful downloads are stored in the relative folder 'downloads'
-    * To set max-search results run 
+   * To Download all songs from spotify, run the given command and follow the instructions in the console
+                          
+                        python spotify++.py
+   * To Download the song by name run songsDownloader.py by steps given below.
+        *     python songsDownloader.py
+        * On running, script prompts the user to enter keyword to search 
+        * It will give user the search result
+        * Succesful downloads are stored in the relative folder 'downloads'
+        * To set max-search results run 
             
-            python songsDownloader.py --max-results value
+                 python songsDownloader.py --max-results value
             
-            value: maximum number of results you want
+                 value: maximum number of results you want
     
 
 Issues
